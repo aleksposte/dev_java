@@ -1,6 +1,6 @@
 package com.alexandr.javacore.chapter02;
 
-public class ForTest {
+    public class ForTest {
     public static void main(String[] args) {
         int x;
 
