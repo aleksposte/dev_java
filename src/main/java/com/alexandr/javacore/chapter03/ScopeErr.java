@@ -5,7 +5,7 @@ public class ScopeErr {
         int bar = 1;
 
         {
-            int bar = 2; // будет ошибка компиляции
+            // int bar = 2; // будет ошибка компиляции
         }
     }
 }
