@@ -10,8 +10,19 @@ import java.util.Scanner;
 
 public class GameRunner {
     public static void main(String[] args) {
-//        GameRunner game = new GameRunner();
+        GameRunner game = new GameRunner();
+        game.start();
 
+//        Field field = new Field();
+//        field.startGame();
+//
+//        GameLogic playGame = new GameLogic();
+//        playGame.getUserInput();
+//        playGame.getCompValue();
+//        playGame.result();
+    }
+
+    public static void start() {
         Field field = new Field();
         field.startGame();
 
@@ -36,6 +47,8 @@ class Field {
 
     public void showResult(String result, String choice1, String choice2) {
         System.out.println("You " + result + "!; your - " + choice1 + ", comp - " + choice2);
+
+        GameRunner.start();
     }
 }
 
