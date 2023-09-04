@@ -53,9 +53,9 @@ class GameLogic {
         int computerInt = (int) (Math.random() * 3) + 1;
 
         switch (computerInt) {
-            case 1 -> userValue = "rock";
-            case 2 -> userValue = "scissors";
-            case 3 -> userValue = "paper";
+            case 1 -> computerValue = "rock";
+            case 2 -> computerValue = "scissors";
+            case 3 -> computerValue = "paper";
         }
         return computerValue;
     }
