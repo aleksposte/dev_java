@@ -21,21 +21,15 @@ class Foo implements Runnable {
     public void run() {}
 
     public void first() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("first" + Thread.currentThread().getName());
-        }
+        System.out.println("first" + Thread.currentThread().getName());
     };
 
     public void second() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("second"  + Thread.currentThread().getName());
-        }
+        System.out.println("second"  + Thread.currentThread().getName());
     };
 
     public void third() {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("third"  + Thread.currentThread().getName());
-        }
+        System.out.println("third"  + Thread.currentThread().getName());
     };
 }
 
