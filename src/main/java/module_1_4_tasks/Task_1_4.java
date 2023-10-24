@@ -16,20 +16,20 @@ public class Task_1_4 {
     }
 }
 
-class Foo implements Runnable {
+class Foo extends Thread {
     @Override
     public void run() {}
 
     public void first() {
-        System.out.println("first" + Thread.currentThread().getName());
+        System.out.println("first " + Thread.currentThread().getName());
     };
 
     public void second() {
-        System.out.println("second"  + Thread.currentThread().getName());
+        System.out.println("second "  + Thread.currentThread().getName());
     };
 
     public void third() {
-        System.out.println("third"  + Thread.currentThread().getName());
+        System.out.println("third "  + Thread.currentThread().getName());
     };
 }
 
