@@ -5,7 +5,7 @@ import java.util.concurrent.Semaphore;
 public class Task_1_4_v3 {
     public static void main(String[] args) throws InterruptedException {
         Foo foo = new Foo();
-
+        System.out.println("It's alive! It's alive!");
         new Thread(() -> {
             try {
                 foo.third(new Runnable() {
