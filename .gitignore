@@ -1,8 +1,12 @@
 .idea
 .DS_Store
 .gradle
+gradle
+gradlew
 /gradle
 /build.gradle
 /gradlew
 /gradlew.bat
 /settings.gradle
+out
+/out

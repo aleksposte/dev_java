@@ -2,7 +2,7 @@ package module_1_4_tasks;
 
 public class Task_1_4_v2 {
     public static void main(String[] args) throws InterruptedException {
-        FooV2 foo = new FooV2();
+        Foov2 foo = new Foov2();
 
         new Thread(() -> {
             try {
@@ -30,7 +30,7 @@ public class Task_1_4_v2 {
     }
 }
 
-class FooV2 {
+class Foov2 {
     private boolean firstFinish = false;
     private boolean secondFinish = false;
     private final Object lock = new Object();
